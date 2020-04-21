@@ -1,0 +1,36 @@
+
+
+.wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrap input {
+    border: none;
+    width: 320px;
+    background: #395697;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: 0;
+    color: #fff;
+}
+::placeholder{
+    color:#fff;
+}
+
+.r, .g, .b{
+    background-color: red;
+    color: #fff;
+    margin-top: 5px;
+    padding: 4px 10px;
+    border-radius: 5px'
+}
+.g{
+    background-color: green;
+}
+.b{
+    background-color: blue;
+}
